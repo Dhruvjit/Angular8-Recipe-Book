@@ -1,1 +1,34 @@
-<h1> The Header </h1>
+<!-- basic bootstrap code to add bootstrap navbar
+     here dropdowns wont work unless you add popper.js and such supporting bootstrap js files
+     but we have decided to keep our code more angularish and hence not to add such libs
+     -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Recipe Book</a>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Recipes </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shopping List</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#"
+           role="button" data-toggle="dropdown">
+          Manage
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Fetch Data</a>
+          <a class="dropdown-item" href="#">Save Data</a>
+          <!--<div class="dropdown-divider"></div>-->
+          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- -->
+
