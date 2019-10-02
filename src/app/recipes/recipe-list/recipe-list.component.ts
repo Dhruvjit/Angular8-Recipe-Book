@@ -12,6 +12,10 @@ export class RecipeListComponent implements OnInit {
     new RecipeModel(
       'A Test Recipe',
       'A test Description',
+      'https://www.freeiconspng.com/uploads/notebook-recipe-icon-18.png'),
+    new RecipeModel(
+      'A Test Recipe',
+      'A test Description',
       'https://www.freeiconspng.com/uploads/notebook-recipe-icon-18.png')
   ];
   constructor() { }
